@@ -1,0 +1,76 @@
+html body{
+    padding: 0;
+    margin: 0;
+    background: #eee;
+}
+a{
+    font-family: arial;
+    text-decoration: none;
+    color: #0295F6;
+    font-weight: 600;
+}
+#main{
+    width: 450px;
+    height: 80%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+.header{
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 10px;
+}
+
+form{
+    width: 75%;
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+    margin: 6px auto;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #c0c0c0;
+}
+[placholder]{
+   color: gray; 
+}
+
+#btn1{
+text-align: center;
+width: 100%;
+}
+#main > form > button{
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    color: #fff;
+    background:#0295F6;
+    font-weight: 600;
+}
+.or-img{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.dont{
+    text-align: center;
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+@media (max-width:450px){
+    #main{
+        width: 90%;
+        margin: 0 auto;
+        height: 80%;
+        margin-top: 15%;
+    }
+}
